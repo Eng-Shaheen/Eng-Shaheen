@@ -1,5 +1,5 @@
 # Cybersecurity Portfolio
-Welcome to my portfolio showcasing applied projects in SOC operations, threat detection, and incident response.
+Applied security, engineered for impact. This portfolio showcases how I design deception systems to outsmart adversaries, operationalize SIEM workflows to sharpen detection, investigate network anomalies with precision, automate threat intelligence for speed, and analyze authentication events to expose hidden risks. Each project reflects a mindset of resilience, problem‑solving, and the ability to strengthen enterprise defenses where it matters most.
 
   - [Self Adaptive Cyber Deception System](https://github.com/Eng-Shaheen/Self-Adaptive-Cyber-Deception-System)
   - [Splunk SIEM Log Triage with MITRE ATT&CK Mapping](https://github.com/Eng-Shaheen/Splunk-log-triage-lab)
