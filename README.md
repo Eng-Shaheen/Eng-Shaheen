@@ -1,19 +1,19 @@
 ## Cybersecurity Portfolio
-Applied security, engineered for impact. This portfolio showcases how I design deception systems to outsmart adversaries, operationalize SIEM workflows to sharpen detection, investigate network anomalies with precision, automate threat intelligence for speed, and analyze authentication events to expose hidden risks. Each project reflects a mindset of resilience, problem‑solving, and the ability to strengthen enterprise defenses where it matters most.
+This portfolio demonstrates practical cybersecurity skills across SOC operations, threat detection, network forensics, and threat intelligence automation. Each project focuses on real-world defensive security techniques aligned with enterprise SOC workflows and MITRE ATT&CK mapping.
 
 ---
 #### Detection & Response
  - [Splunk SIEM Log Triage with MITRE ATT&CK Mapping](https://github.com/Eng-Shaheen/Splunk-log-triage-lab)
-    - Enterprise‑grade detection workflows, correlating brute‑force and credential misuse with ATT&CK techniques.
+    - Developed SPL queries to detect brute-force and credential-based attacks from authentication logs. Mapped events to MITRE ATT&CK techniques and reconstructed incident timelines.
  - [Windows Authentication Security Analysis](https://github.com/Eng-Shaheen/Windows-Authentication-Security-Analysis)
-    - Timeline investigations of logon events to expose privilege escalation attempts and accelerate incident response.
+    - Analyzed Windows Event Logs (4624, 4625, 4672) to identify failed logons, privilege escalation attempts, and suspicious authentication patterns for SOC investigation.
 #### Deception & Engagement
   - [Self Adaptive Cyber Deception System](https://github.com/Eng-Shaheen/Self-Adaptive-Cyber-Deception-System)
-    - AI‑powered honeypot framework with Docker pipelines and real‑time dashboards, reducing analyst workload and engaging adversaries strategically.
+    - Built a Dockerized honeypot environment (Cowrie + Flask dashboard) to simulate enterprise systems and capture attacker behavior for analysis and SOC insights.
 #### Forensics & Intelligence
   - [Wireshark Network Traffic Analysis](https://github.com/Eng-Shaheen/Wireshark-Network-Traffic-Analysis)
-    - Packet‑level anomaly detection across enterprise PCAPs, validating retransmissions and congestion events with precision.
+    - Performed packet-level analysis of TCP/UDP traffic to identify anomalies such as retransmissions, congestion, and abnormal communication patterns.
   - [Python IOC Parser](https://github.com/Eng-Shaheen/Python-IOC-Parser)
-    - Automated extraction of IPs, domains, and hashes from threat datasets, streamlining SOC triage and prioritization.
+    - Developed a Python tool to extract IPs, domains, and hashes from log datasets, enabling structured threat intelligence for SOC triage workflows.
 ---
-### ⚡ *Turning threat data into defense strategies.* 
+### ⚡ *Translating raw security data into actionable detection and response capabilities.* 
