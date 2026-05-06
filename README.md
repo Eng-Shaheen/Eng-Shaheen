@@ -12,7 +12,7 @@ This portfolio demonstrates practical cybersecurity skills across SOC operations
     - Designed and deployed a fully automated cyber deception pipeline integrating Cowrie honeypot, a custom AI decision engine, and a Flask-based real-time dashboard. System processed 112 attacker events with 120ms average response latency, generating 115 unique dynamic decoy artifacts across stress tests. Mapped attacker behaviour to MITRE ATT&CK T1110, T1078, T1056, and T1083.
 #### Forensics & Intelligence
   - [Wireshark Network Traffic Analysis](https://github.com/Eng-Shaheen/Wireshark-Network-Traffic-Analysis)
-    - TCP Anomaly Detection Analysed two PCAP datasets using Wireshark and tshark CLI across 202-packet and 900-packet captures. Detected 3 TCP retransmissions, 4 duplicate ACKs, and 107 RST events using targeted display filters. Validated all findings via tshark command-line - documenting cause-and-effect chain from congestion to packet loss. Zero window negative result analytically confirmed network congestion as root cause.
+    - Analysed two PCAP datasets using Wireshark and tshark CLI across 202-packet and 900-packet captures. Detected 3 TCP retransmissions, 4 duplicate ACKs, and 107 RST events using targeted display filters. Validated all findings via tshark command-line - documenting cause-and-effect chain from congestion to packet loss. Zero window negative result analytically confirmed network congestion as root cause.
   - [Python IOC Parser](https://github.com/Eng-Shaheen/Python-IOC-Parser)
     - Developed a Python tool to extract IPs, domains, and hashes from log datasets, enabling structured threat intelligence for SOC triage workflows.
 ---
