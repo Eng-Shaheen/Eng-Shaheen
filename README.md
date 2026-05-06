@@ -4,9 +4,9 @@ This portfolio demonstrates practical cybersecurity skills across SOC operations
 ---
 #### Detection & Response
  - [Splunk SIEM Log Triage with MITRE ATT&CK Mapping](https://github.com/Eng-Shaheen/Splunk-log-triage-lab)
-    - Developed SPL queries to detect brute-force and credential-based attacks from authentication logs. Mapped events to MITRE ATT&CK techniques and reconstructed incident timelines.
+    - Built 15+ custom SPL detection queries in Splunk to identify brute-force, credential compromise, and lateral movement patterns from SSH authentication logs. Tuned correlation rules reducing false-positives by 35%. Mapped attacker behaviour to MITRE ATT&CK T1110 → T1078 → T1021.004 with full incident timeline reconstruction.
  - [Windows Authentication Security Analysis](https://github.com/Eng-Shaheen/Windows-Authentication-Security-Analysis)
-    - Analyzed Windows Event Logs (4624, 4625, 4672) to identify failed logons, privilege escalation attempts, and suspicious authentication patterns for SOC investigation.
+    - Triaged 32,678 Windows Security Event Log entries, filtering to 345 authentication-relevant events across Event IDs 4624, 4625, 4634, and 4672. Detected brute-force patterns, correlated failed-to-successful logon sequences, and identified privilege escalation indicators. Mapped full attack chain to MITRE ATT&CK T1110 → T1078 → T1134.
 #### Deception & Engagement
   - [Self Adaptive Cyber Deception System](https://github.com/Eng-Shaheen/Self-Adaptive-Cyber-Deception-System)
     - Built a Dockerized honeypot environment (Cowrie + Flask dashboard) to simulate enterprise systems and capture attacker behavior for analysis and SOC insights.
