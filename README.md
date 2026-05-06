@@ -1,19 +1,19 @@
 ## Cybersecurity Portfolio
-This portfolio demonstrates practical cybersecurity skills across SOC operations, threat detection, network forensics, and threat intelligence automation. Each project focuses on real-world defensive security techniques aligned with enterprise SOC workflows and MITRE ATT&CK mapping.
+- This portfolio documents hands-on cybersecurity work across SOC detection engineering, threat deception, network forensics, and automation. Every project is built on real tools, real data, and real investigative methodology - aligned to enterprise SOC workflows and MITRE ATT&CK. No CTF writeups. No theory. Just practical defensive security work.
 
 ---
 #### Detection & Response
- - [Splunk SIEM Log Triage with MITRE ATT&CK Mapping](https://github.com/Eng-Shaheen/Splunk-log-triage-lab)
+ - [Splunk SIEM Detection Engineering & Log Triage - MITRE ATT&CK Mapped](https://github.com/Eng-Shaheen/Splunk-log-triage-lab)
     - Built 15+ custom SPL detection queries in Splunk to identify brute-force, credential compromise, and lateral movement patterns from SSH authentication logs. Tuned correlation rules reducing false-positives by 35%. Mapped attacker behaviour to MITRE ATT&CK T1110 → T1078 → T1021.004 with full incident timeline reconstruction.
- - [Windows Authentication Security Analysis](https://github.com/Eng-Shaheen/Windows-Authentication-Security-Analysis)
+ - [Windows Authentication Security Analysis - MITRE ATT&CK Mapped](https://github.com/Eng-Shaheen/Windows-Authentication-Security-Analysis)
     - Triaged 32,678 Windows Security Event Log entries, filtering to 345 authentication-relevant events across Event IDs 4624, 4625, 4634, and 4672. Detected brute-force patterns, correlated failed-to-successful logon sequences, and identified privilege escalation indicators. Mapped full attack chain to MITRE ATT&CK T1110 → T1078 → T1134.
 #### Deception & Engagement
-  - [Self Adaptive Cyber Deception System](https://github.com/Eng-Shaheen/Self-Adaptive-Cyber-Deception-System)
+  - [Self-Adaptive Cyber Deception System - AI-Driven Honeypot](https://github.com/Eng-Shaheen/Self-Adaptive-Cyber-Deception-System)
     - Designed and deployed a fully automated cyber deception pipeline integrating Cowrie honeypot, a custom AI decision engine, and a Flask-based real-time dashboard. System processed 112 attacker events with 120ms average response latency, generating 115 unique dynamic decoy artifacts across stress tests. Mapped attacker behaviour to MITRE ATT&CK T1110, T1078, T1056, and T1083.
 #### Forensics & Intelligence
-  - [Wireshark Network Traffic Analysis](https://github.com/Eng-Shaheen/Wireshark-Network-Traffic-Analysis)
+  - [Wireshark Network Traffic Analysis - TCP Anomaly Detection](https://github.com/Eng-Shaheen/Wireshark-Network-Traffic-Analysis)
     - Analysed two PCAP datasets using Wireshark and tshark CLI across 202-packet and 900-packet captures. Detected 3 TCP retransmissions, 4 duplicate ACKs, and 107 RST events using targeted display filters. Validated all findings via tshark command-line - documenting cause-and-effect chain from congestion to packet loss. Zero window negative result analytically confirmed network congestion as root cause.
-  - [Python IOC Parser](https://github.com/Eng-Shaheen/Python-IOC-Parser)
-    - Developed a Python tool to extract IPs, domains, and hashes from log datasets, enabling structured threat intelligence for SOC triage workflows.
+  - [Python IOC Parser & SOC Automation - Threat Indicator Extraction](https://github.com/Eng-Shaheen/Python-IOC-Parser)
+    - Built a Python regex-based IOC extraction tool parsing raw logs for IPs, domains, MD5 and SHA256 hashes with de-duplication and frequency counting. Extended dataset extracted 2 malicious IPs, 5 suspicious domains including payload.exe and bad-malware-site.com, and 2 file hashes. Frequency delta analysis between datasets enabled immediate SOC threat prioritisation.
 ---
-### ⚡ *Translating raw security data into actionable detection and response capabilities.* 
+### ⚡ *Built in a lab. Ready for production.* 
