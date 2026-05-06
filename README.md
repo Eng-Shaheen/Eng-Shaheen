@@ -9,7 +9,7 @@ This portfolio demonstrates practical cybersecurity skills across SOC operations
     - Triaged 32,678 Windows Security Event Log entries, filtering to 345 authentication-relevant events across Event IDs 4624, 4625, 4634, and 4672. Detected brute-force patterns, correlated failed-to-successful logon sequences, and identified privilege escalation indicators. Mapped full attack chain to MITRE ATT&CK T1110 → T1078 → T1134.
 #### Deception & Engagement
   - [Self Adaptive Cyber Deception System](https://github.com/Eng-Shaheen/Self-Adaptive-Cyber-Deception-System)
-    - Built a Dockerized honeypot environment (Cowrie + Flask dashboard) to simulate enterprise systems and capture attacker behavior for analysis and SOC insights.
+    - Designed and deployed a fully automated cyber deception pipeline integrating Cowrie honeypot, a custom AI decision engine, and a Flask-based real-time dashboard. System processed 112 attacker events with 120ms average response latency, generating 115 unique dynamic decoy artifacts across stress tests. Mapped attacker behaviour to MITRE ATT&CK T1110, T1078, T1056, and T1083.
 #### Forensics & Intelligence
   - [Wireshark Network Traffic Analysis](https://github.com/Eng-Shaheen/Wireshark-Network-Traffic-Analysis)
     - Performed packet-level analysis of TCP/UDP traffic to identify anomalies such as retransmissions, congestion, and abnormal communication patterns.
