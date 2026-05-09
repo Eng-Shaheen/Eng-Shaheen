@@ -3,6 +3,8 @@
 
 ---
 #### Detection & Response
+-  [Microsoft Sentinel SIEM - Cloud Detection Lab (Azure)](https://github.com/Eng-Shaheen/Microsoft-Sentinel-SIEM-Lab)
+    - Deployed Microsoft Sentinel on Azure with a dedicated resource group and Log Analytics workspace. Configured the cloud-native SIEM environment, explored the ASIM normalisation schema, and queried Azure AD authentication error codes using KQL - including account lockouts (50053), incorrect passwords (50056), disabled accounts (50057), and conditional access policy violations (53003).
  - [Splunk SIEM Detection Engineering & Log Triage - MITRE ATT&CK Mapped](https://github.com/Eng-Shaheen/Splunk-log-triage-lab)
     - Built 15+ custom SPL detection queries in Splunk to identify brute-force, credential compromise, and lateral movement patterns from SSH authentication logs. Tuned correlation rules reducing false-positives by 35%. Mapped attacker behaviour to MITRE ATT&CK T1110 → T1078 → T1021.004 with full incident timeline reconstruction.
  - [Windows Authentication Security Analysis - MITRE ATT&CK Mapped](https://github.com/Eng-Shaheen/Windows-Authentication-Security-Analysis)
